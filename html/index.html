@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EStateX — Premium Real Estate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-page="index">
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo"
+          ><i class="fas fa-building"></i> EState<span>X</span></a
+        >
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html" class="active">Home</a>
+          <a href="listings.html">Listings</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a
+            href="postproperty.html"
+            class="btn btn-primary btn-sm"
+            style="margin-left: 4px"
+            ><i class="fas fa-plus"></i> Post</a
+          >
+          <a href="savedproperty.html" class="btn btn-outline btn-sm"
+            ><i class="fas fa-heart"></i> Saved</a
+          >
+          <a href="login.html" class="btn btn-outline btn-sm"
+            ><i class="fas fa-user"></i> Login</a
+          >
+        </nav>
+        <div class="nav-actions">
+          <a
+            href="login.html"
+            class="btn btn-outline btn-sm"
+            style="display: inline-flex"
+            ><i class="fas fa-user"></i
+          ></a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Find Your <span>Dream</span> Property <br />with EStateX</h1>
+          <p>
+            Discover premium homes, luxury flats, and exclusive bungalows. Your
+            perfect space is just a search away.
+          </p>
+          <div class="hero-buttons">
+            <a href="listings.html" class="btn btn-primary"
+              ><i class="fas fa-search"></i> Explore Listings</a
+            >
+            <a href="postproperty.html" class="btn btn-outline"
+              ><i class="fas fa-plus"></i> List Your Property</a
+            >
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <h3>2,400+</h3>
+              <p>Properties Listed</p>
+            </div>
+            <div class="stat">
+              <h3>1,800+</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="stat">
+              <h3>98%</h3>
+              <p>Satisfaction Rate</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="img-placeholder">
+            <!-- <i class="fas fa-home"></i>
+            <span>Premium Properties <br />Curated for You</span> -->
+            <img class="img" src="../images/hero_img.jpeg" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Bar -->
+    <div class="container">
+      <div class="search-bar">
+        <div class="form-group">
+          <label><i class="fas fa-map-pin"></i> Location</label>
+          <input type="text" placeholder="City, area, or zip" />
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-tag"></i> Property Type</label>
+          <select>
+            <option>All Types</option>
+            <option>Flat</option>
+            <option>Bungalow</option>
+            <option>Penthouse</option>
+            <option>Villa</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-dollar-sign"></i> Budget</label>
+          <select>
+            <option>Any Budget</option>
+            <option>$100k – $250k</option>
+            <option>$250k – $500k</option>
+            <option>$500k – $1M</option>
+            <option>$1M+</option>
+          </select>
+        </div>
+        <a href="searchproperty.html" class="btn btn-primary"
+          ><i class="fas fa-search"></i> Search</a
+        >
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge"><i class="fas fa-th-large"></i> Categories</span>
+          <h2>Explore by Property Type</h2>
+          <p>
+            Find exactly what you're looking for — from cozy flats to luxury
+            penthouses.
+          </p>
+        </div>
+        <div class="category-grid">
+          <a href="flat.html" class="category-item"
+            ><i class="fas fa-building"></i>
+            <h4>Flats</h4>
+            <p>320+ listings</p></a
+          >
+          <a href="bunglow.html" class="category-item"
+            ><i class="fas fa-house-chimney"></i>
+            <h4>Bungalows</h4>
+            <p>180+ listings</p></a
+          >
+          <a href="penthouse.html" class="category-item"
+            ><i class="fas fa-city"></i>
+            <h4>Penthouses</h4>
+            <p>90+ listings</p></a
+          >
+          <a href="listings.html" class="category-item"
+            ><i class="fas fa-arrow-right"></i>
+            <h4>All Properties</h4>
+            <p>View all</p></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="section" style="padding-top: 0">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge"><i class="fas fa-star"></i> Featured</span>
+          <h2>Handpicked Properties</h2>
+          <p>Our top recommendations curated just for you.</p>
+        </div>
+        <div class="property-grid" id="featuredGrid"></div>
+        <div class="text-center mt-24">
+          <a href="listings.html" class="btn btn-accent"
+            ><i class="fas fa-arrow-right"></i> View All Listings</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" style="background: var(--white)">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge"
+            ><i class="fas fa-quote-left"></i> Testimonials</span
+          >
+          <h2>What Our Clients Say</h2>
+          <p>
+            Real stories from real people who found their dream home with
+            EStateX.
+          </p>
+        </div>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <blockquote>
+              “EStateX made finding our first home so easy. The search tools are
+              incredible and the team was always available to help.”
+            </blockquote>
+            <div class="author">
+              <div class="avatar">JD</div>
+              <div>
+                <div class="name">John Doe</div>
+                <div class="role">First-time Buyer</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <blockquote>
+              “I listed my penthouse and got an offer within 48 hours. The
+              exposure EStateX provides is unmatched.”
+            </blockquote>
+            <div class="author">
+              <div class="avatar">SM</div>
+              <div>
+                <div class="name">Sarah Mitchell</div>
+                <div class="role">Property Seller</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <blockquote>
+              “The attention to detail and the quality of listings on EStateX is
+              outstanding. I found my dream bungalow here.”
+            </blockquote>
+            <div class="author">
+              <div class="avatar">RK</div>
+              <div>
+                <div class="name">Rahul Kumar</div>
+                <div class="role">Investor</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Find Your Dream Property?</h2>
+        <p>
+          Join thousands of happy homeowners and investors. Start your search
+          today or list your property with us.
+        </p>
+        <div class="btn-group">
+          <a href="listings.html" class="btn btn-primary"
+            ><i class="fas fa-search"></i> Browse Listings</a
+          >
+          <a href="postproperty.html" class="btn btn-outline"
+            ><i class="fas fa-plus"></i> Post Your Property</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="logo"
+              ><i class="fas fa-building"></i> EState<span>X</span></a
+            >
+            <p>
+              Your trusted partner in finding premium properties. We connect you
+              with the best homes in the market.
+            </p>
+            <div class="footer-socials" style="margin-top: 16px">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="listings.html">All Listings</a></li>
+              <li><a href="flat.html">Flats</a></li>
+              <li><a href="bunglow.html">Bungalows</a></li>
+              <li><a href="penthouse.html">Penthouses</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="postproperty.html">Post Property</a></li>
+              <li><a href="searchproperty.html">Search</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Account</h4>
+            <ul>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li><a href="savedproperty.html">Saved Properties</a></li>
+              <li><a href="viewproperty.html">View Property</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2025 EStateX. All rights reserved.</span>
+          <span
+            ><a href="#" style="margin-right: 16px">Privacy Policy</a
+            ><a href="#">Terms of Service</a></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
